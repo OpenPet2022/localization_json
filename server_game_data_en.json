@@ -42,7 +42,7 @@
 				"Type" : "ThankMessage",
 				"AnalyticsId" : 2050,
 				"Header" : "#Thanks!",
-				"Message" : "#You can go back to getting to know the cat.",
+				"Message" : "#You can go back to getting to know the cat. #You can go back to getting to know the cat.",
 				"Image" : "Thank",
 				"ContinueButtonLabel" : "#Fill out the survey (~1 minute)",
 				"StopButtonLabel" : "#Go back to the cat"			

@@ -1,117 +1,128 @@
 {
 	"FeedbackQuestions" : {
-		"QuestionsCounterLabel" : "Question {0} from {1}",
-		"ButtonNextLabel" : "Next",
+		"QuestionsCounterLabel" : "#Question {0} from {1}",
+		"ButtonNextLabel" : "#Next",
 		"Questions" : [
 			{
 				"Id" : 0,
 				"Type" : "WelcomeMessage",
 				"AnalyticsId" : 2010,
-				"Header" : "Привет!",
-				"Message" : "Пожалуйста, ответьте на 3 коротких вопроса и помогите сделать это приложение еще лучше",
+				"Header" : "#Hello!",
+				"Message" : "#Please answer 3 short questions and help us make this app even better.",
 				"Image" : "Hand"
 			},
 			{
 				"Id" : 1,
 				"Type" : "SelectRating",
 				"AnalyticsId" : 2020,
-				"Message" : "Какова вероятность, что вы порекомендуете это приложение другу или коллеге?",
-				"NegativeHint" : "Совсем не вероятно",
-				"PositiveHint" : "Крайне вероятно",
-				"Hint" : "Нажмите на число от 1 до 10",
+				"Message" : "#How likely are you to recommend this app to a friend or colleague?",
+				"NegativeHint" : "#Not at all likely",
+				"PositiveHint" : "#Extremely likely",
+				"Hint" : "#Tap on a number from 1 to 10",
 				"TopRating" : 10
 			},
 			{
 				"Id" : 2,
 				"Type" : "WriteFeedback",
 				"AnalyticsId" : 2030,
-				"Message" : "Есть ли что-то, что вам не понравилось? Какие изменения вы бы внесли в приложение?",
-				"Hint" : "Мне не понравилось...",
-				"Image" : "NegativeFeedback"
+				"Message" : "#What did you like most about the app?",
+				"Hint" : "#I like...",
+				"Image" : "PositiveFeedback"
 			},
 			{
 				"Id" : 3,
 				"Type" : "WriteFeedback",
 				"AnalyticsId" : 2040,
-				"Message" : "Что вам понравилось в приложении больше всего?",
-				"Hint" : "Мне понравилось...",
-				"Image" : "PositiveFeedback"
-			},
+				"Message" : "#Is there anything you didn't like? What changes would you make to the app?",
+				"Hint" : "#I dislike...",
+				"Image" : "NegativeFeedback"
+			},			
 			{
 				"Id" : 4,
 				"Type" : "ThankMessage",
 				"AnalyticsId" : 2050,
-				"Header" : "Спасибо!",
-				"Message" : "Вы можете вернуться к знакомству с котом. Но если вы дополнительно расскажете немного о себе, то мы сможем сделать это приложение ещё лучше!",
+				"Header" : "#Thanks!",
+				"Message" : "#You can go back to getting to know the cat.",
 				"Image" : "Thank",
-				"ContinueButtonLabel" : "Заполнить анкету (~1 минута)",
-				"StopButtonLabel" : "Вернуться к коту"			
+				"ContinueButtonLabel" : "#Fill out the survey (~1 minute)",
+				"StopButtonLabel" : "#Go back to the cat"			
 			},
 			{
 				"Id" : 5,
 				"Type" : "SelectOption",
 				"AnalyticsId" : 2060,
-				"Message" : "Укажите ваш пол",
+				"Message" : "#Specify your gender",
 				"Options" :[
-					"Женский",
-					"Мужской",
-					"Иное"
+					"#Female",
+					"#Male",
+					"#Other"
 				]
 			},
 			{
 				"Id" : 6,
 				"Type" : "SelectOption",
 				"AnalyticsId" : 2070,
-				"Message" : "Укажите ваш возраст",
+				"Message" : "#Please indicate your age",
 				"Options" :[
-					"до 12 лет",
-					"от 13 до 17 лет",
-					"от 18 до 34 лет",
-					"от 35 до 44 лет",
-					"от 45 до 54 лет",
-					"от 55 до 64 лет",
-					"от 65 лет или старше",
+					"#up to 12 years old",
+					"#from 13 to 17",
+					"#from 18 to 34",
+					"#from 35 to 44",
+					"#from 45 to 54",
+					"#from 55 to 64",
+					"#65 years or older"
 				]
 			},
 			{
 				"Id" : 7,
 				"Type" : "SelectOption",
 				"AnalyticsId" : 2080,
-				"Message" : "В какой стране вы проживаете в настоящее время?",
+				"Message" : "#What country do you currently reside in?",
 				"Options" :[
-					"США",
-					"Китай",
-					"Южная Корея",
-					"Россия",
-					"...",
-					"Другая страна",
+					"#USA",
+					"#United Kingdom",
+					"#China",
+					"#Russia",
+					"#Brazil",
+					"#Australia",
+					"#Canada",
+					"#Germany",
+					"#France",
+					"#Italy",
+					"#Mexico",
+					"#Japan",
+					"#Switzerland",
+					"#South Korea",
+					"#India",
+					"#Turkey",
+					"#Other country..."
 				]
 			},
 			{
 				"Id" : 8,
 				"Type" : "SelectOption",
 				"AnalyticsId" : 2090,
-				"Message" : "Укажите среднемесячный доход вашей семьи",
+				"Message" : "#Specify your family's average monthly income",
 				"Options" :[
-					"до 30 000 ₽ ($499)",
-					"30 000-45 000 ₽ ($500-749)",
-					"45 000-61 000 ₽ ($750-999)",
-					"61 000-91 000 ₽ ($1000-1449)",
-					"91 000-122 000 ₽ ($1500-1999)",
-					"122 000-177 000 ₽ ($2000-2900)",
-					"177 000-244 000 ₽ ($3000-3999)",
-					"244 000-306 000 ₽ ($4000-4999)",
-					"306 000 ₽ и более ($5000+)",
+					"#up to $499",
+					"#$500-$749",
+					"#$750-$999",
+					"#$1000-$1499",
+					"#$1500-$1999",
+					"#$2000-$2900",
+					"#$3000-$3999",
+					"#$4000-$4999",
+					"#$5,000 or above"
 				]
 			},
 			{
 				"Id" : 9,
 				"Type" : "Complete",
 				"AnalyticsId" : 2100,
-				"Header" : "Спасибо! Вы супер!",
-				"Message" : "Теперь вы можете продолжить знакомство с котом",
+				"Header" : "#Thanks! #You are super!",
+				"Message" : "#Now you can continue your acquaintance with the cat.",
 				"Image" : "Heart",
-				"ContinueButtonLabel" : "Вернуться к коту"
+				"ContinueButtonLabel" : "#Go back to the cat"
 			}	
 		]
 	}

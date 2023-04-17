@@ -1,0 +1,129 @@
+{
+	"FeedbackQuestions" : {
+		"QuestionsCounterLabel" : "%问题{0}从{1}",
+		"ButtonNextLabel" : "%下一个",
+		"Questions" : [
+			{
+				"Id" : 0,
+				"Type" : "WelcomeMessage",
+				"AnalyticsId" : 2010,
+				"Header" : "%你好！",
+				"Message" : "%请回答3个简短的问题，并帮助我们改善此应用程序。",
+				"Image" : "Hand"
+			},
+			{
+				"Id" : 1,
+				"Type" : "SelectRating",
+				"AnalyticsId" : 2020,
+				"Message" : "%您将此应用程序推荐给朋友或同事的可能性有多大？",
+				"NegativeHint" : "%一点都不可能",
+				"PositiveHint" : "%极有可能",
+				"Hint" : "%点击1到10的数字",
+				"TopRating" : 10
+			},
+			{
+				"Id" : 2,
+				"Type" : "WriteFeedback",
+				"AnalyticsId" : 2030,
+				"Message" : "%您最喜欢该应用程序吗？",
+				"Hint" : "%我喜欢...",
+				"Image" : "PositiveFeedback"
+			},
+			{
+				"Id" : 3,
+				"Type" : "WriteFeedback",
+				"AnalyticsId" : 2040,
+				"Message" : "%有什么你不喜欢的吗？您将对应用程序进行哪些更改？",
+				"Hint" : "%我不喜欢...",
+				"Image" : "NegativeFeedback"
+			},			
+			{
+				"Id" : 4,
+				"Type" : "ThankMessage",
+				"AnalyticsId" : 2050,
+				"Header" : "%谢谢！",
+				"Message" : "%您可以回去认识猫。%但是，如果您告诉我们更多有关您自己的信息，我们可以使这个应用程序更好！",
+				"Image" : "Thank",
+				"ContinueButtonLabel" : "%填写调查（〜1分钟）",
+				"StopButtonLabel" : "%回到猫"			
+			},
+			{
+				"Id" : 5,
+				"Type" : "SelectOption",
+				"AnalyticsId" : 2060,
+				"Message" : "%指定您的性别",
+				"Options" :[
+					"%女性",
+					"%男性",
+					"%其他"
+				]
+			},
+			{
+				"Id" : 6,
+				"Type" : "SelectOption",
+				"AnalyticsId" : 2070,
+				"Message" : "%请指出您的年龄",
+				"Options" :[
+					"%最多12岁",
+					"%从13到17",
+					"%从18到34",
+					"%从35到44",
+					"%从45到54",
+					"%从55到64",
+					"%65岁以上"
+				]
+			},
+			{
+				"Id" : 7,
+				"Type" : "SelectOption",
+				"AnalyticsId" : 2080,
+				"Message" : "%您目前居住在哪个国家？",
+				"Options" :[
+					"%美国",
+					"%英国",
+					"%中国",
+					"%俄罗斯",
+					"%巴西",
+					"%澳大利亚",
+					"%加拿大",
+					"%德国",
+					"%法国",
+					"%意大利",
+					"%墨西哥",
+					"%日本",
+					"%瑞士",
+					"%韩国",
+					"%印度",
+					"%火鸡",
+					"%其他国家..."
+				]
+			},
+			{
+				"Id" : 8,
+				"Type" : "SelectOption",
+				"AnalyticsId" : 2090,
+				"Message" : "%指定您家人的平均月收入",
+				"Options" :[
+					"%最高$ 499",
+					"%$ 500- $ 749",
+					"%$ 750- $ 999",
+					"%$ 1000- $ 1499",
+					"%$ 1500- $ 1999",
+					"%$ 2000- $ 2900",
+					"%$ 3000- $ 3999",
+					"%$ 4000- $ 4999",
+					"%$ 5,000或以上"
+				]
+			},
+			{
+				"Id" : 9,
+				"Type" : "Complete",
+				"AnalyticsId" : 2100,
+				"Header" : "%谢谢！%你很棒！",
+				"Message" : "%现在，您可以继续与猫相识。",
+				"Image" : "Heart",
+				"ContinueButtonLabel" : "%回到猫"
+			}	
+		]
+	}
+}
